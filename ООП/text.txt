@@ -1,0 +1,14 @@
+setattr(Class, 'tp' ,'text');
+getattr(Class, 'tp' ,False) / not error;
+hasattr(Class,'tp') -Tr/Fl => del Class.tp;
+instance.__dict__ => атриб и эксз класса
+Class.__doc__ => '...' описание класса
+      Class:
+      свойства(данные)
+      методы(функции)
+
+sefl - для работы с локальными атрибутами конкретного экземпляра класса
+
+инкапсуляция public, _protect, __private(use set,get)
+print(dir(exemp)) - как обращаться к закрытым параметрам
+моносостояние - цепляет измение одного параметра в первом экземпляре и измеяет его же во втором

@@ -1,0 +1,7 @@
+python -m ensurepip --upgrade
+pip install --upgrade virtualenv
+virtualenv your_virtual_environment --python=python3.12
+virtualenv --upgrade-embed-wheels
+virtualenv --reset-app-data
+python3.12 -m pip install --upgrade setuptools
+pip3 install --upgrade pip
