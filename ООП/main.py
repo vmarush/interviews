@@ -201,7 +201,7 @@
 # print(next(fr))
 # print(next(fr))
 # print(fr.__next__())
-# oop============================================================================================
+# oop=====================Наследовиние===========================================================
 # class Geom:
 #     name = 'Geom'
 #     def __init__(self,x1,y1,x2,y2):
@@ -213,9 +213,9 @@
 # class Line(Geom):
 #     def dwaw(self):
 #         print('Рисуем линии')
-# #
-# # l1 = Line(x1=1,y1=1,x2=2,y2=2)
-# # print(l1.dwaw())
+#
+# l1 = Line(x1=1,y1=1,x2=2,y2=2)
+# print(l1.dwaw())
 #
 # class Rect(Geom):
 #     def __init__(self,x1,y1,x2,y2,fill=None):
@@ -317,7 +317,7 @@
 # pt = Point()
 # print(pt.MAX_CORD)
 # print(pt.get_coords())
-# oop==DATA Classes================================================================================
+# oop================DATA Classes===========================================
 # from dataclasses import dataclass,field
 # from  pprint import pprint
 #
@@ -330,7 +330,7 @@
 # td = ThingData(name='Python',weight=100,price=11100)
 # print(td) # автоматически добавлсяется __repr__{self.__dict__}
 #         # автоматически __init__ и self.name,weight,price
-# oop===========
+# oop=================================
 # from dataclasses import dataclass, field, InitVar
 #
 #
